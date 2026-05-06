@@ -22,7 +22,7 @@ def load_pipeline():
     )
 
     llm = ChatGoogleGenerativeAI(
-        model="gemini-1.5-flash",
+        model="gemini-2.5-flash",
         temperature=0.6,
         max_tokens=2048
     )
